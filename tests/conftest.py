@@ -20,7 +20,6 @@ fixtures are available.
 # 2.1. Flask-Login v0.6.0 (yet to be released at the time of writing) fixes the
 # issue. Once we depend on Flask-Login v0.6.0 as the minimal version in
 # Flask-Security-Invenio/Invenio-Accounts we can remove this patch again.
-from oarepo_vocabularies.basic.records.api import OARepoVocabularyBasic
 from oarepo_vocabularies.datastreams.excel import ExcelReader
 from oarepo_vocabularies.datastreams.hierarchy import HierarchyTransformer
 

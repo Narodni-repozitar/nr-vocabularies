@@ -3,10 +3,6 @@ from invenio_records_resources.services import (
     RecordServiceConfig as InvenioRecordServiceConfig,
 )
 from invenio_records_resources.services import pagination_links
-from invenio_records_resources.services.records.components import (
-    DataComponent,
-    MetadataComponent,
-)
 from oarepo_vocabularies.services.config import OARepoVocabulariesServiceConfigBase
 
 from nr_vocabularies.records.api import NRVocabulary
@@ -25,6 +21,6 @@ class NRVocabulariesServiceConfig(
     search = NRVocabulariesSearchOptions
     record_cls = NRVocabulary
 
-    components = OARepoVocabulariesServiceConfigBase.components
+    components = [*OARepoVocabulariesServiceConfigBase.components]
 
     model = "nr_vocabularies"

@@ -8,6 +8,7 @@ model:
       type: object
 
       oarepo:marshmallow:
+        generate: true
         class: nr_vocabularies.services.schema.RelatedURISchema
 
       properties:
@@ -49,6 +50,7 @@ model:
       type: object
       oarepo:marshmallow:
         class: nr_vocabularies.services.schema.NonPreferredLabels
+        generate: true
       properties:
         cs[]:
           type: keyword

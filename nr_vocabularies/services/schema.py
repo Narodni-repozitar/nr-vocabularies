@@ -39,7 +39,7 @@ class NRVocabularySchema(
 ):
     """NRVocabularySchema schema."""
 
-    relatedURI = ma_fields.Nested(lambda: RelatedURISchema())
+    relatedURI = ma_fields.Nested(RelatedURISchema)
 
     marcCode = ma_fields.String()
 
@@ -63,7 +63,7 @@ class NRVocabularySchema(
 
     nameType = ma_fields.String()
 
-    nonpreferredLabels = ma_fields.Nested(lambda: NonPreferredLabels())
+    nonpreferredLabels = ma_fields.Nested(NonPreferredLabels)
 
     pair = ma_fields.String()
 
