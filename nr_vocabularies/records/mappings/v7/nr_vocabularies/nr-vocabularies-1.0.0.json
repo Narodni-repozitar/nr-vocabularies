@@ -1,0 +1,213 @@
+{
+    "settings": {
+        "analysis": {
+            "analyzer": {
+                "oarepo_hvocabularies_analyzer": {
+                    "tokenizer": "oarepo_hvocabularies_tokenizer"
+                },
+                "oarepo_hvocabularies_reverse_analyzer": {
+                    "tokenizer": "oarepo_hvocabularies_reverse_tokenizer"
+                }
+            },
+            "tokenizer": {
+                "oarepo_hvocabularies_tokenizer": {
+                    "type": "path_hierarchy",
+                    "delimiter": "/"
+                },
+                "oarepo_hvocabularies_reverse_tokenizer": {
+                    "type": "path_hierarchy",
+                    "reverse": true,
+                    "delimiter": "/"
+                }
+            }
+        }
+    },
+    "mappings": {
+        "properties": {
+            "relatedURI": {
+                "type": "object",
+                "properties": {
+                    "COAR": {
+                        "type": "keyword",
+                        "ignore_above": 50
+                    },
+                    "CrossrefFunderID": {
+                        "type": "keyword",
+                        "ignore_above": 50
+                    },
+                    "ROR": {
+                        "type": "keyword",
+                        "ignore_above": 50
+                    },
+                    "URL": {
+                        "type": "keyword",
+                        "ignore_above": 50
+                    }
+                }
+            },
+            "marcCode": {
+                "type": "keyword",
+                "ignore_above": 50
+            },
+            "dataCiteCode": {
+                "type": "keyword",
+                "ignore_above": 50
+            },
+            "alpha3Code": {
+                "type": "keyword",
+                "ignore_above": 50
+            },
+            "alpha3CodeENG": {
+                "type": "keyword",
+                "ignore_above": 50
+            },
+            "alpha3CodeNative": {
+                "type": "keyword",
+                "ignore_above": 50
+            },
+            "acronym": {
+                "type": "keyword",
+                "ignore_above": 50
+            },
+            "RID": {
+                "type": "keyword",
+                "ignore_above": 50
+            },
+            "ICO": {
+                "type": "keyword",
+                "ignore_above": 50
+            },
+            "coarType": {
+                "type": "keyword",
+                "ignore_above": 50
+            },
+            "dataCiteType": {
+                "type": "keyword",
+                "ignore_above": 50
+            },
+            "nameType": {
+                "type": "keyword",
+                "ignore_above": 50
+            },
+            "nonpreferredLabels": {
+                "type": "object",
+                "properties": {
+                    "cs": {
+                        "type": "keyword",
+                        "ignore_above": 50
+                    },
+                    "en": {
+                        "type": "keyword",
+                        "ignore_above": 50
+                    }
+                }
+            },
+            "pair": {
+                "type": "keyword",
+                "ignore_above": 50
+            },
+            "hint": {
+                "type": "object",
+                "dynamic": true
+            },
+            "uuid": {
+                "type": "keyword",
+                "ignore_above": 50
+            },
+            "indexed_at": {
+                "type": "date"
+            },
+            "created": {
+                "type": "date"
+            },
+            "updated": {
+                "type": "date"
+            },
+            "type": {
+                "properties": {
+                    "pid_type": {
+                        "type": "keyword",
+                        "ignore_above": 50
+                    },
+                    "id": {
+                        "type": "keyword",
+                        "ignore_above": 50
+                    }
+                },
+                "type": "object"
+            },
+            "pid": {
+                "properties": {
+                    "pk": {
+                        "type": "integer"
+                    },
+                    "pid_type": {
+                        "type": "keyword",
+                        "ignore_above": 50
+                    },
+                    "obj_type": {
+                        "type": "keyword",
+                        "ignore_above": 50
+                    },
+                    "status": {
+                        "type": "keyword",
+                        "ignore_above": 50
+                    }
+                },
+                "type": "object"
+            },
+            "title_sort": {
+                "type": "keyword",
+                "ignore_above": 50
+            },
+            "title": {
+                "type": "object",
+                "dynamic": true
+            },
+            "description": {
+                "type": "object",
+                "dynamic": true
+            },
+            "icon": {
+                "type": "keyword",
+                "index": false,
+                "ignore_above": 50
+            },
+            "hierarchy": {
+                "type": "object",
+                "properties": {
+                    "level": {
+                        "type": "integer"
+                    },
+                    "path": {
+                        "type": "text",
+                        "copy_to": "hierarchy_reverse_path",
+                        "analyzer": "oarepo_hvocabularies_analyzer",
+                        "search_analyzer": "standard"
+                    },
+                    "reverse_path": {
+                        "type": "text",
+                        "analyzer": "oarepo_hvocabularies_reverse_analyzer",
+                        "search_analyzer": "standard"
+                    }
+                }
+            },
+            "id": {
+                "type": "keyword",
+                "ignore_above": 50
+            },
+            "$schema": {
+                "type": "keyword",
+                "ignore_above": 50
+            },
+            "contexts": {
+                "type": "keyword",
+                "ignore_above": 50
+            },
+            "tags": {
+                "type": "keyword",
+                "ignore_above": 50
+            }
+        }
+    }
+}

@@ -1,0 +1,76 @@
+- code: access-rights
+  pid-type: v-ar
+  title:
+    cs: Přístupová práva
+    en: Access rights
+  file: accessRights.xlsx
+
+- code: contributor-types
+  pid-type: v-ct
+  title:
+    cs: Role přispěvatele
+    en: Contributor Type
+  file: contributorType.xlsx
+
+- code: countries
+  pid-type: v-c
+  title:
+    cs: Státy
+    en: Countries
+  file: countries.xlsx
+
+- code: funders
+  pid-type: v-f
+  title:
+    cs: Poskytovatelé finanční podpory
+    en: Research funders
+  file: funders.xlsx
+
+- code: institutions
+  pid-type: v-i
+  title:
+    cs: Instituce
+    en: Institutions
+  file: institutions.xlsx
+
+- code: item-relation-types
+  pid-type: v-relt
+  title:
+    cs: Typ vztahu popisovaného dokumentu k propojené jednotce
+    en: The type of relationship of the described document to the interconnected item (unit)
+  file: itemRelationType.xlsx
+
+- code: languages
+  pid-type: v-lang
+  title:
+    cs: Jazyky
+    en: Languages
+  file: languages.xlsx
+
+- code: licenses
+  pid-type: v-lic
+  title:
+    cs: Licence
+    en: Licenses
+  file: licenses.xlsx
+
+- code: resource-types
+  pid-type: v-rest
+  title:
+    cs: Typ zdroje
+    en: Resource type
+  file: resourceType.xlsx
+
+- code: related-resource-types
+  pid-type: v-rel
+  title:
+    cs: Typ přidruženého zdroje
+    en: Related resource type
+  file: resourceType_relatedItem.xlsx
+
+- code: subject-categories
+  pid-type: v-subj
+  title:
+    cs: Oborové třídění
+    en: Subject categories
+  file: subjectCategories.xlsx

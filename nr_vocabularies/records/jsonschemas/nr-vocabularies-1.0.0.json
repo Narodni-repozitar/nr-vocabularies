@@ -1,0 +1,183 @@
+{
+    "properties": {
+        "relatedURI": {
+            "type": "object",
+            "properties": {
+                "COAR": {
+                    "type": "string"
+                },
+                "CrossrefFunderID": {
+                    "type": "string"
+                },
+                "ROR": {
+                    "type": "string"
+                },
+                "URL": {
+                    "type": "string"
+                }
+            }
+        },
+        "marcCode": {
+            "type": "string"
+        },
+        "dataCiteCode": {
+            "type": "string"
+        },
+        "alpha3Code": {
+            "type": "string"
+        },
+        "alpha3CodeENG": {
+            "type": "string"
+        },
+        "alpha3CodeNative": {
+            "type": "string"
+        },
+        "acronym": {
+            "type": "string"
+        },
+        "RID": {
+            "type": "string"
+        },
+        "ICO": {
+            "type": "string"
+        },
+        "coarType": {
+            "type": "string"
+        },
+        "dataCiteType": {
+            "type": "string"
+        },
+        "nameType": {
+            "type": "string"
+        },
+        "nonpreferredLabels": {
+            "type": "object",
+            "properties": {
+                "cs": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "en": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                }
+            }
+        },
+        "pair": {
+            "type": "string"
+        },
+        "hint": {
+            "type": "object",
+            "propertyNames": {
+                "pattern": "^[a-z]{2}$"
+            },
+            "additionalProperties": {
+                "type": "string"
+            }
+        },
+        "uuid": {
+            "type": "string"
+        },
+        "indexed_at": {
+            "type": "string",
+            "format": "date"
+        },
+        "created": {
+            "type": "string",
+            "format": "date"
+        },
+        "updated": {
+            "type": "string",
+            "format": "date"
+        },
+        "type": {
+            "properties": {
+                "pid_type": {
+                    "type": "string"
+                },
+                "id": {
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        },
+        "pid": {
+            "properties": {
+                "pk": {
+                    "type": "integer"
+                },
+                "pid_type": {
+                    "type": "string"
+                },
+                "obj_type": {
+                    "type": "string"
+                },
+                "status": {
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        },
+        "title_sort": {
+            "type": "string"
+        },
+        "title": {
+            "type": "object",
+            "propertyNames": {
+                "pattern": "^[a-z]{2}$"
+            },
+            "additionalProperties": {
+                "type": "string"
+            }
+        },
+        "description": {
+            "type": "object",
+            "propertyNames": {
+                "pattern": "^[a-z]{2}$"
+            },
+            "additionalProperties": {
+                "type": "string"
+            }
+        },
+        "icon": {
+            "type": "string"
+        },
+        "hierarchy": {
+            "type": "object",
+            "properties": {
+                "level": {
+                    "type": "integer"
+                },
+                "path": {
+                    "type": "string"
+                },
+                "reverse_path": {
+                    "type": "string"
+                }
+            }
+        },
+        "id": {
+            "type": "string"
+        },
+        "$schema": {
+            "type": "string"
+        },
+        "contexts": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "tags": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        }
+    },
+    "type": "object"
+}
