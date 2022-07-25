@@ -1,0 +1,48 @@
+oarepo:use: [ invenio ]
+settings:
+  package: 'example'
+  schema-server: 'local://'
+  python:
+    record-service-config-components:
+      - invenio_records_resources.services.records.components.DataComponent
+      - invenio_records_resources.services.records.components.RelationsComponent
+  oarepo:vocabularies:
+    schema: nr-vocabularies
+    record-class: nr_vocabularies.records.api.NRVocabulary
+
+model:
+  properties:
+    title:
+      type: fulltext
+    lang:
+      oarepo:vocabulary:
+        type: language
+        fields: [ id,title ]
+
+    affiliations[]:
+      oarepo:vocabulary:
+        type: affiliation
+        fields: [ id,title ]
+
+    subjects[]:
+      oarepo:vocabulary:
+        type: subject
+        fields: [ id,title ]
+
+plugins:
+  builder:
+    disable:
+      - poetry
+      - cookiecutter
+      - invenio_ext_poetry
+      - invenio_sample_app_poetry
+      - invenio_record_metadata_alembic_poetry
+      - invenio_record_metadata_models_poetry
+      - invenio_record_resource_poetry
+      - invenio_record_search_poetry
+      - invenio_record_jsonschemas_poetry
+      - invenio_script_bootstrap
+      - invenio_script_runserver
+      - invenio_script_import_sample_data
+      - script_sample_data
+      - invenio_script_runserver

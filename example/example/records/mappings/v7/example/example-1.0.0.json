@@ -1,0 +1,35 @@
+{
+    "mappings": {
+        "properties": {
+            "title": {
+                "type": "text"
+            },
+            "lang": {
+                "properties": {},
+                "type": "object"
+            },
+            "id": {
+                "type": "keyword",
+                "ignore_above": 50
+            },
+            "created": {
+                "type": "date"
+            },
+            "updated": {
+                "type": "date"
+            },
+            "$schema": {
+                "type": "keyword",
+                "ignore_above": 50
+            },
+            "affiliations": {
+                "properties": {},
+                "type": "object"
+            },
+            "subjects": {
+                "properties": {},
+                "type": "object"
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "properties": {
+        "title": {
+            "type": "string"
+        },
+        "lang": {
+            "properties": {},
+            "type": "object"
+        },
+        "id": {
+            "type": "string"
+        },
+        "created": {
+            "type": "string",
+            "format": "date"
+        },
+        "updated": {
+            "type": "string",
+            "format": "date"
+        },
+        "$schema": {
+            "type": "string"
+        },
+        "affiliations": {
+            "type": "array",
+            "items": {
+                "properties": {},
+                "type": "object"
+            }
+        },
+        "subjects": {
+            "type": "array",
+            "items": {
+                "properties": {},
+                "type": "object"
+            }
+        }
+    },
+    "type": "object"
+}

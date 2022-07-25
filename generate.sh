@@ -10,7 +10,7 @@ python3.10 -m venv .venv-model-builder
 source .venv-model-builder/bin/activate
 
 pip install -U pip setuptools wheel
-pip install 'oarepo-model-builder>=1.0.0dev9' oarepo-vocabularies-model-builder
+pip install 'oarepo-model-builder>=1.0.0dev9' 'oarepo-vocabularies-model-builder>=0.0.5'
 
 (
   cd nr-vocabularies

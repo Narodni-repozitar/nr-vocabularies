@@ -1,5 +1,6 @@
 model:
   oarepo:marshmallow:
+    generate: false
     class: nr_vocabularies.services.schema.NRVocabularySchema
 
   properties:

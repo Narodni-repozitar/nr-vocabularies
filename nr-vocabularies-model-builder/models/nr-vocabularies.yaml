@@ -1,4 +1,4 @@
-oarepo:use: [ "./nr-vocabularies-model.yaml", hvocabulary, "hvocabulary-basic"]
+oarepo:use: [ "./nr_vocabularies_model.yaml", hvocabulary, "hvocabulary-basic"]
 
 settings:
   package: 'nr_vocabularies'
@@ -10,6 +10,10 @@ settings:
     ext-class: 'nr_vocabularies.ext.NRVocabulariesExt'
     record-class: 'nr_vocabularies.records.api.NRVocabulary'
     record-schema-class: nr_vocabularies.services.schema.NRVocabularySchema
+
+model:
+  oarepo:marshmallow:
+    generate: true
 
 plugins:
   builder:
