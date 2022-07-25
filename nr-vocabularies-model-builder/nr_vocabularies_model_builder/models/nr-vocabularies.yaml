@@ -1,4 +1,4 @@
-oarepo:use: [ "./nr-vocabularies-model.yaml", hvocabulary, "hvocabulary-basic"]
+oarepo:use: [ "./nr_vocabularies_model.yaml", hvocabulary, "hvocabulary-basic"]
 
 settings:
   package: 'nr_vocabularies'

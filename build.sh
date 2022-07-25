@@ -10,7 +10,15 @@ test -d dist && rm -rf dist
 
 mkdir dist
 
-export VERSION="__version__=\"$(git describe --tags --abbrev=0)\""
+export VERSION="$(git describe --tags --abbrev=0)"
+
+if [ "a$VERSION" = "a" ] ; then
+    echo "No version yet, setting it to 0.0.1"
+    VERSION="0.0.1"
+fi
+
+export VERSION="__version__=\"$VERSION\""
+echo "version will be: $VERSION"
 
 # create library distribution
 (
@@ -40,7 +48,6 @@ export VERSION="__version__=\"$(git describe --tags --abbrev=0)\""
 (
   cd example
   test -d dist && rm -rf dist
-  cp ../README.rst .
   cat setup.cfg
   python setup.py sdist bdist_wheel
 )
