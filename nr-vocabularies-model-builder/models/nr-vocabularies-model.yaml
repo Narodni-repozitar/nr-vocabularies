@@ -1,0 +1,73 @@
+model:
+  oarepo:marshmallow:
+    class: nr_vocabularies.services.schema.NRVocabularySchema
+
+  properties:
+    relatedURI:
+      type: object
+
+      oarepo:marshmallow:
+        generate: true
+        class: nr_vocabularies.services.schema.RelatedURISchema
+
+      properties:
+        COAR:
+          type: keyword
+        CrossrefFunderID:
+          type: keyword
+        ROR:
+          type: keyword
+        URL:
+          type: keyword
+    marcCode:
+      type: keyword
+    dataCiteCode:
+      type: keyword
+    alpha3Code:
+      type: keyword
+    alpha3CodeENG:
+      type: keyword
+    alpha3CodeNative:
+      type: keyword
+    acronym:
+      type: keyword
+    contexts[]:
+      type: keyword
+    tags[]:
+      type: keyword
+    RID:
+      type: keyword
+    ICO:
+      type: keyword
+    coarType:
+      type: keyword
+    dataCiteType:
+      type: keyword
+    nameType:
+      type: keyword
+    nonpreferredLabels:
+      type: object
+      oarepo:marshmallow:
+        class: nr_vocabularies.services.schema.NonPreferredLabels
+        generate: true
+      properties:
+        cs[]:
+          type: keyword
+        en[]:
+          type: keyword
+    pair:
+      type: keyword
+    hint:
+      type: object
+      propertyNames:
+        pattern: "^[a-z]{2}$"
+      additionalProperties:
+        type: keyword
+      oarepo:mapping:
+        dynamic: true
+        type: object
+      oarepo:marshmallow: # leave invenio-vocabularies default
+        field: vocabularies_schema.i18n_strings
+        imports:
+          - import: invenio_vocabularies.services.schema
+            alias: vocabularies_schema
