@@ -1,10 +1,10 @@
 #!/bin/bash
 
+pip install -U pip setuptools wheel
+
 set -e
 
-cp nr-vocabularies/nr_vocabularies/version.py nr-vocabularies-model-builder/nr_vocabularies_model_builder/
-
-cp nr-vocabulary-model.yaml nr-vocabularies-model-builder/nr_vocabularies_model_builder/
+cp -r models nr-vocabularies-model-builder/nr_vocabularies_model_builder/
 
 test -d dist && rm -rf dist
 
@@ -15,7 +15,7 @@ export VERSION="__version__=\"$(git describe --tags --abbrev=0)\""
 # create library distribution
 (
   cd nr-vocabularies
-  echo $VERSION > version.py
+  echo "$VERSION" > nr_vocabularies/version.py
   test -d dist && rm -rf dist
   cp ../README.rst .
   cat setup.cfg
@@ -27,7 +27,7 @@ export VERSION="__version__=\"$(git describe --tags --abbrev=0)\""
 # create model builder extension package
 (
   cd nr-vocabularies-model-builder
-  echo $VERSION > version.py
+  echo "$VERSION" > nr_vocabularies_model_builder/version.py
   test -d dist && rm -rf dist
   cp ../README.rst .
   cat setup.cfg
