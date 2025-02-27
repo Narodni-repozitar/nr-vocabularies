@@ -7,6 +7,8 @@ props:
   submission: 'true'
 relatedURI:
   COAR: http://purl.org/coar/resource_type/c_2f33
+tags:
+- depositable
 title:
   cs: Kniha
   en: Book
@@ -20,6 +22,8 @@ props:
   submission: 'true'
 relatedURI:
   COAR: http://purl.org/coar/resource_type/c_3248
+tags:
+- depositable
 title:
   cs: Kapitola v knize
   en: Book chapter
@@ -31,6 +35,8 @@ props:
   submission: 'true'
 relatedURI:
   COAR: http://purl.org/coar/resource_type/c_6501
+tags:
+- depositable
 title:
   cs: Článek
   en: Article
@@ -45,9 +51,12 @@ nonpreferredLabels:
 props:
   coarType: journal article
   dataCiteType: JournalArticle
+  description: AO: Autorský původní rukopis článku.
   submission: 'true'
 relatedURI:
   COAR: http://purl.org/coar/resource_type/c_6501
+tags:
+- depositable
 title:
   cs: Článek - draft
   en: Article - draft
@@ -62,9 +71,12 @@ nonpreferredLabels:
 props:
   coarType: preprint
   dataCiteType: Preprint
+  description: SMUR: verze článku přijatá k recenznímu řízení (preprint).
   submission: 'true'
 relatedURI:
   COAR: http://purl.org/coar/resource_type/c_816b
+tags:
+- depositable
 title:
   cs: Článek - submitted version
   en: Article - submitted version
@@ -79,9 +91,12 @@ nonpreferredLabels:
 props:
   coarType: journal article
   dataCiteType: JournalArticle
+  description: AM: přijatá verze článku po recenzním řízení (postprint).
   submission: 'true'
 relatedURI:
   COAR: http://purl.org/coar/resource_type/c_6501
+tags:
+- depositable
 title:
   cs: Článek - accepted version
   en: Article - accepted version
@@ -92,13 +107,19 @@ id: published-version
 nonpreferredLabels:
 - cs: Vydaný článek
 - cs: Publikovaná verze článku
+- cs: Version of Record: publikovaná verze
 - en: VoR
+- en: (Final) published version
+- en: Publisher´s final version
 props:
   coarType: journal article
   dataCiteType: JournalArticle
+  description: VoR: vydavatelská verze článku.
   submission: 'true'
 relatedURI:
   COAR: http://purl.org/coar/resource_type/c_6501
+tags:
+- depositable
 title:
   cs: Článek - published version
   en: Article - published version
@@ -113,9 +134,12 @@ nonpreferredLabels:
 props:
   coarType: journal article
   dataCiteType: JournalArticle
+  description: EVoR: aktualizovaná vydavatelská verze článku.
   submission: 'true'
 relatedURI:
   COAR: http://purl.org/coar/resource_type/c_6501
+tags:
+- depositable
 title:
   cs: Článek - updated version
   en: Article - updated version
@@ -130,9 +154,12 @@ nonpreferredLabels:
 props:
   coarType: journal article
   dataCiteType: JournalArticle
+  description: CVoR: opravená vydavatelská verze článku.
   submission: 'true'
 relatedURI:
   COAR: http://purl.org/coar/resource_type/c_6501
+tags:
+- depositable
 title:
   cs: Článek - corrected version
   en: Article - corrected version
@@ -144,6 +171,8 @@ props:
   submission: 'true'
 relatedURI:
   COAR: http://purl.org/coar/resource_type/c_efa0
+tags:
+- depositable
 title:
   cs: Recenze
   en: Review
@@ -175,6 +204,8 @@ props:
   submission: 'true'
 relatedURI:
   COAR: http://purl.org/coar/resource_type/c_c94f
+tags:
+- depositable
 title:
   cs: Konferenční příspěvek
   en: Conference paper
@@ -188,6 +219,8 @@ props:
   submission: 'true'
 relatedURI:
   COAR: http://purl.org/coar/resource_type/c_f744
+tags:
+- depositable
 title:
   cs: Konferenční sborník
   en: Conference proceeding
@@ -201,6 +234,8 @@ props:
   submission: 'true'
 relatedURI:
   COAR: http://purl.org/coar/resource_type/c_c94f
+tags:
+- depositable
 title:
   cs: Konferenční program
   en: Conference programme
@@ -214,6 +249,8 @@ props:
   submission: 'true'
 relatedURI:
   COAR: http://purl.org/coar/resource_type/c_c94f
+tags:
+- depositable
 title:
   cs: Konferenční poster
   en: Conference poster
@@ -227,6 +264,8 @@ props:
   submission: 'true'
 relatedURI:
   COAR: http://purl.org/coar/resource_type/R60J-J5BD
+tags:
+- depositable
 title:
   cs: Konferenční prezentace
   en: Conference presentation
@@ -403,6 +442,8 @@ props:
   submission: 'true'
 relatedURI:
   COAR: http://purl.org/coar/resource_type/c_393c
+tags:
+- depositable
 title:
   cs: Certifikovaná metodika
   en: Certified methodology
@@ -416,6 +457,8 @@ props:
   submission: 'true'
 relatedURI:
   COAR: http://purl.org/coar/resource_type/c_393c
+tags:
+- depositable
 title:
   cs: Metodika bez certifikace
   en: Methodology without certification
@@ -431,6 +474,8 @@ props:
   submission: 'true'
 relatedURI:
   COAR: http://purl.org/coar/resource_type/c_393c
+tags:
+- depositable
 title:
   cs: Památkový postup
   en: Heritage procedure
@@ -444,6 +489,8 @@ props:
   submission: 'true'
 relatedURI:
   COAR: http://purl.org/coar/resource_type/c_393c
+tags:
+- depositable
 title:
   cs: Léčebný postup
   en: Treatment procedure
@@ -462,6 +509,8 @@ props:
   submission: 'true'
 relatedURI:
   COAR: http://purl.org/coar/resource_type/c_93fc
+tags:
+- depositable
 title:
   cs: Výroční zpráva
   en: Annual report
@@ -475,6 +524,8 @@ props:
   submission: 'true'
 relatedURI:
   COAR: http://purl.org/coar/resource_type/c_18ws
+tags:
+- depositable
 title:
   cs: Výzkumná zpráva
   en: Research report
@@ -488,6 +539,8 @@ props:
   submission: 'true'
 relatedURI:
   COAR: http://purl.org/coar/resource_type/c_18op
+tags:
+- depositable
 title:
   cs: Projektová zpráva
   en: Project report
@@ -503,6 +556,8 @@ props:
   submission: 'true'
 relatedURI:
   COAR: http://purl.org/coar/resource_type/c_93fc
+tags:
+- depositable
 title:
   cs: Statistická zpráva, zpráva o stavu
   en: Statistical or status report
@@ -516,6 +571,8 @@ props:
   submission: 'true'
 relatedURI:
   COAR: http://purl.org/coar/resource_type/c_93fc
+tags:
+- depositable
 title:
   cs: Restaurátorská zpráva
   en: Conservation report
@@ -529,6 +586,8 @@ props:
   submission: 'true'
 relatedURI:
   COAR: http://purl.org/coar/resource_type/c_93fc
+tags:
+- depositable
 title:
   cs: Terénní zpráva
   en: Field report
@@ -542,6 +601,8 @@ props:
   submission: 'true'
 relatedURI:
   COAR: http://purl.org/coar/resource_type/c_93fc
+tags:
+- depositable
 title:
   cs: Cestovní zpráva
   en: Business trip report
@@ -555,6 +616,8 @@ props:
   submission: 'true'
 relatedURI:
   COAR: http://purl.org/coar/resource_type/c_93fc
+tags:
+- depositable
 title:
   cs: Tisková zpráva
   en: Press release
@@ -575,6 +638,8 @@ props:
   submission: 'true'
 relatedURI:
   COAR: http://purl.org/coar/resource_type/c_1843
+tags:
+- depositable
 title:
   cs: Firemní tisk
   en: Trade literature
@@ -588,6 +653,8 @@ props:
   submission: 'true'
 relatedURI:
   COAR: http://purl.org/coar/resource_type/c_1843
+tags:
+- depositable
 title:
   cs: Studie, analýza
   en: Studies and analyses
@@ -601,6 +668,8 @@ props:
   submission: 'true'
 relatedURI:
   COAR: http://purl.org/coar/resource_type/c_12cc
+tags:
+- depositable
 title:
   cs: Specializovaná mapa
   en: Specialized map
@@ -614,6 +683,8 @@ props:
   submission: 'true'
 relatedURI:
   COAR: http://purl.org/coar/resource_type/c_1843
+tags:
+- depositable
 title:
   cs: Edukativní materiály
   en: Educational material
@@ -627,6 +698,8 @@ props:
   submission: 'true'
 relatedURI:
   COAR: http://purl.org/coar/resource_type/c_1843
+tags:
+- depositable
 title:
   cs: Katalog z výstavy, průvodce expozicí
   en: Exhibition catalogue or guide
@@ -640,6 +713,8 @@ props:
   submission: 'true'
 relatedURI:
   COAR: http://purl.org/coar/resource_type/c_1843
+tags:
+- depositable
 title:
   cs: Ostatní
   en: Other
@@ -655,6 +730,8 @@ props:
   submission: 'true'
 relatedURI:
   COAR: http://purl.org/coar/resource_type/c_12cc
+tags:
+- depositable
 title:
   cs: Kartografický dokument
   en: Cartographic material

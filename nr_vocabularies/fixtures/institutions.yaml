@@ -1260,11 +1260,12 @@ title:
 ---
 id: entomologicky-ustav-av-cr
 props:
-  ICO: '60077344'
   nameType: organizational
 relatedURI:
   ROR: https://ror.org/039nazg33
   URL: http://www.entu.cas.cz/
+tags:
+- deprecated
 title:
   cs: Entomologický ústav AV ČR
   en: Institute of Entomology of the CAS
@@ -1348,10 +1349,12 @@ title:
 ---
 id: hydrobiologicky-ustav-av-cr
 props:
-  ICO: '60077344'
   nameType: organizational
 relatedURI:
+  ROR: https://ror.org/0436nxt45
   URL: http://www.hbu.cas.cz
+tags:
+- deprecated
 title:
   cs: Hydrobiologický ústav AV ČR
   en: Institute of Hydrobiology of the CAS
@@ -1413,11 +1416,12 @@ title:
 ---
 id: parazitologicky-ustav-av-cr
 props:
-  ICO: '60077344'
   nameType: organizational
 relatedURI:
   ROR: https://ror.org/05rhyza23
   URL: http://www.paru.cas.cz/cs/
+tags:
+- deprecated
 title:
   cs: Parazitologický ústav AV ČR
   en: Institute of Parasitology of the CAS
@@ -1644,11 +1648,12 @@ title:
 ---
 id: ustav-molekularni-biologie-rostlin-av-cr
 props:
-  ICO: '60077344'
   nameType: organizational
 relatedURI:
   ROR: https://ror.org/00jr65m43
   URL: http://www.bc.cas.cz/
+tags:
+- deprecated
 title:
   cs: Ústav molekulární biologie rostlin AV ČR
   en: Institute of Plant Molecular Biology of the CAS
@@ -1742,11 +1747,12 @@ title:
 ---
 id: ustav-pudni-biologie-av-cr
 props:
-  ICO: '60077344'
   nameType: organizational
 relatedURI:
   ROR: https://ror.org/02tz8r820
   URL: http://www.upb.cas.cz/
+tags:
+- deprecated
 title:
   cs: Ústav půdní biologie AV ČR
   en: Institute of Soil Biology of the CAS
