@@ -25,6 +25,15 @@ vocabulary-countries:
       en: Countries
   - source: countries.yaml
 
+vocabulary-degree-grantors:
+  - writer: vocabulary
+    vocabulary: degree-grantors
+    pid-type: v-dg
+    title:
+      cs: Instituce udělující vysokoškolský titul
+      en: Degree grantors
+  - source: degree-grantors.yaml
+
 vocabulary-funders:
   - writer: vocabulary
     vocabulary: funders
