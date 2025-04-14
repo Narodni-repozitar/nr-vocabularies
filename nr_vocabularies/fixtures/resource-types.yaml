@@ -49,7 +49,7 @@ nonpreferredLabels:
 props:
   coarType: journal article
   dataCiteType: JournalArticle
-  description: AO: Autorský původní rukopis článku.
+  description: 'AO: Autorský původní rukopis článku.'
   submission: 'true'
 relatedURI:
   COAR: http://purl.org/coar/resource_type/c_6501
@@ -69,7 +69,7 @@ nonpreferredLabels:
 props:
   coarType: preprint
   dataCiteType: Preprint
-  description: SMUR: verze článku přijatá k recenznímu řízení (preprint).
+  description: 'SMUR: verze článku přijatá k recenznímu řízení (preprint).'
   submission: 'true'
 relatedURI:
   COAR: http://purl.org/coar/resource_type/c_816b
@@ -89,7 +89,7 @@ nonpreferredLabels:
 props:
   coarType: journal article
   dataCiteType: JournalArticle
-  description: AM: přijatá verze článku po recenzním řízení (postprint).
+  description: 'AM: přijatá verze článku po recenzním řízení (postprint).'
   submission: 'true'
 relatedURI:
   COAR: http://purl.org/coar/resource_type/c_6501
@@ -105,14 +105,14 @@ id: published-version
 nonpreferredLabels:
 - cs: Vydaný článek
 - cs: Publikovaná verze článku
-- cs: Version of Record: publikovaná verze
+- cs: 'Version of Record: publikovaná verze'
 - en: VoR
 - en: (Final) published version
 - en: Publisher´s final version
 props:
   coarType: journal article
   dataCiteType: JournalArticle
-  description: VoR: vydavatelská verze článku.
+  description: 'VoR: vydavatelská verze článku.'
   submission: 'true'
 relatedURI:
   COAR: http://purl.org/coar/resource_type/c_6501
@@ -132,7 +132,7 @@ nonpreferredLabels:
 props:
   coarType: journal article
   dataCiteType: JournalArticle
-  description: EVoR: aktualizovaná vydavatelská verze článku.
+  description: 'EVoR: aktualizovaná vydavatelská verze článku.'
   submission: 'true'
 relatedURI:
   COAR: http://purl.org/coar/resource_type/c_6501
@@ -152,7 +152,7 @@ nonpreferredLabels:
 props:
   coarType: journal article
   dataCiteType: JournalArticle
-  description: CVoR: opravená vydavatelská verze článku.
+  description: 'CVoR: opravená vydavatelská verze článku.'
   submission: 'true'
 relatedURI:
   COAR: http://purl.org/coar/resource_type/c_6501
