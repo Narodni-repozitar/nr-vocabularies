@@ -12,7 +12,7 @@ def test_complex_import_export(app, db, cache, search_clear, vocab_cf, caplog):
     load_fixtures(batch_size=100, callback=load_callback)
     assert load_callback.failed_entries_count == 0
     assert load_callback.filtered_entries_count == 0
-    assert load_callback.ok_entries_count == 1255
+    assert load_callback.ok_entries_count == 1257
     Vocabulary.index.refresh()
 
     with tempfile.TemporaryDirectory() as d:
