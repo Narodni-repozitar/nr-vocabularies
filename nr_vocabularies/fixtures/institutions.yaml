@@ -3501,3 +3501,14 @@ relatedURI:
   URL: https://www.art-carbon.cz/
 title:
   cs: Art Carbon s.r.o.
+---
+id: IITG
+nonpreferredLabels:
+- en: IIT Guwahati
+props:
+  acronym: IITG
+relatedURI:
+  ROR: https://ror.org/0022nd079
+  URL: https://iitg.ac.in
+title:
+  en: Indian Institute of Technology Guwahati
