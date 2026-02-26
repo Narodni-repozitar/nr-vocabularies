@@ -711,3 +711,21 @@ relatedURI:
 title:
   cs: Vysoké učení technické v Brně
   en: Brno University of Technology
+---
+id: snsf
+props:
+  acronym: SNSF
+  acronym: FNS
+  acronym: SNF
+relatedURI:
+  ROR: https://ror.org/00yjd3n13
+title:
+  it: Fondo Nazionale Svizzero per la Ricerca Scientifica
+  en: Swiss National Science Foundation
+  de: Schweizerische Nationalfonds zur Förderung der wissenschaftlichen Forschung
+  fr: Fonds national suisse de la recherche scientifique
+---
+id: usi-funding
+title:
+  it: Fondo Istituzionale per la Ricerca (FIR) 
+  en: USI Institutional Research Fund at Università della Svizzera italiana
