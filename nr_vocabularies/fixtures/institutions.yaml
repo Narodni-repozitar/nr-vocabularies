@@ -3512,3 +3512,24 @@ relatedURI:
   URL: https://iitg.ac.in
 title:
   en: Indian Institute of Technology Guwahati
+---
+id: usi
+nonpreferredLabels:
+- en: University of Italian Switzerland
+- en: University of Southern Switzerland
+- fr: Université de la Suisse italienne
+props:
+  acronym: USI
+relatedURI:
+  ROR: https://ror.org/03c4atk17
+  URL: https://www.usi.ch
+title:
+  it: Università della Svizzera italiana
+  en: University of Lugano
+---
+id: oracle
+relatedURI:
+  ROR: https://ror.org/006c77m33
+  URL: http://www.oracle.com/index.html
+title:
+  en: Oracle (United States)
