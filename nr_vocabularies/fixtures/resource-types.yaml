@@ -255,7 +255,7 @@ hierarchy:
 id: poster
 props:
   coarType: conference output
-  dataCiteType: Other
+  dataCiteType: Poster
   submission: 'true'
 relatedURI:
   COAR: http://purl.org/coar/resource_type/c_c94f
@@ -270,7 +270,7 @@ hierarchy:
 id: presentation
 props:
   coarType: conference presentation
-  dataCiteType: Other
+  dataCiteType: Presentation
   submission: 'true'
 relatedURI:
   COAR: http://purl.org/coar/resource_type/R60J-J5BD
