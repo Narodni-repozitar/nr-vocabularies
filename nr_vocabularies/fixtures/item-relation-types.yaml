@@ -382,3 +382,10 @@ props:
 title:
   cs: má překlad
   en: has translation
+---
+hint: 
+  en: Indicates that A is related to B and the relationship does not fit into an existing category.
+id: Other
+title:
+  cs: ostatní
+  en: other
