@@ -2214,8 +2214,8 @@ props:
 relatedURI:
   URL: https://www.msb-jablonec.cz/novinky
 title:
-  cs: Muzeum skla a bižuterie v Jablonci nad Nisou
-  en: Museum of Glass and Jewellery
+  cs: Státní muzeum skla a bižuterie v Jablonci nad Nisou
+  en: State Museum of Glass and Jewellery
 ---
 id: narodni-hrebcin-kladruby-nad-labem
 props:
@@ -3431,6 +3431,7 @@ props:
   acronym: NIK
   nameType: organizational
 relatedURI:
+  ROR: https://ror.org/024jn1h80
   URL: https://nipk.cz/
 title:
   cs: Národní institut pro kulturu
