@@ -39,6 +39,7 @@ icon: https://licensebuttons.net/l/by/1.0/88x31.png
 id: CC-BY-1.0
 props:
   acronym: CC-BY-1.0
+  spdx: CC-BY-1.0
 relatedURI:
   URL: https://creativecommons.org/licenses/by/1.0/
 title:
@@ -60,6 +61,7 @@ icon: https://licensebuttons.net/l/by-sa/1.0/88x31.png
 id: CC-BY-SA-1.0
 props:
   acronym: CC-BY-SA-1.0
+  spdx: CC-BY-SA-1.0
 relatedURI:
   URL: https://creativecommons.org/licenses/by-sa/1.0/
 title:
@@ -80,6 +82,7 @@ icon: https://licensebuttons.net/l/by-nc/1.0/88x31.png
 id: CC-BY-NC-1.0
 props:
   acronym: CC-BY-NC-1.0
+  spdx: CC-BY-NC-1.0
 relatedURI:
   URL: https://creativecommons.org/licenses/by-nc/1.0/
 title:
@@ -103,6 +106,7 @@ icon: https://licensebuttons.net/l/by-nc-sa/1.0/88x31.png
 id: CC-BY-NC-SA-1.0
 props:
   acronym: CC-BY-NC-SA-1.0
+  spdx: CC-BY-NC-SA-1.0
 relatedURI:
   URL: https://creativecommons.org/licenses/by-nc-sa/1.0/
 title:
@@ -124,6 +128,7 @@ icon: https://licensebuttons.net/l/by-nd/1.0/88x31.png
 id: CC-BY-ND-1.0
 props:
   acronym: CC-BY-ND-1.0
+  spdx: CC-BY-ND-1.0
 relatedURI:
   URL: https://creativecommons.org/licenses/by-nd/1.0/
 title:
@@ -144,6 +149,7 @@ icon: https://licensebuttons.net/l/by-nd-nc/1.0/88x31.png
 id: CC-BY-ND-NC-1.0
 props:
   acronym: CC-BY-ND-NC-1.0
+  spdx: CC-BY-NC-ND-1.0
 relatedURI:
   URL: https://creativecommons.org/licenses/by-nd-nc/1.0/
 title:
@@ -180,6 +186,7 @@ icon: https://licensebuttons.net/l/by/2.0/88x31.png
 id: CC-BY-2.0
 props:
   acronym: CC-BY-2.0
+  spdx: CC-BY-2.0
 relatedURI:
   URL: https://creativecommons.org/licenses/by/2.0/
 title:
@@ -201,6 +208,7 @@ icon: https://licensebuttons.net/l/by-sa/2.0/88x31.png
 id: CC-BY-SA-2.0
 props:
   acronym: CC-BY-SA-2.0
+  spdx: CC-BY-SA-2.0
 relatedURI:
   URL: https://creativecommons.org/licenses/by-sa/2.0/
 title:
@@ -221,6 +229,7 @@ icon: https://licensebuttons.net/l/by-nc/2.0/88x31.png
 id: CC-BY-NC-2.0
 props:
   acronym: CC-BY-NC-2.0
+  spdx: CC-BY-NC-2.0
 relatedURI:
   URL: https://creativecommons.org/licenses/by-nc/2.0/
 title:
@@ -244,6 +253,7 @@ icon: https://licensebuttons.net/l/by-nc-sa/2.0/88x31.png
 id: CC-BY-NC-SA-2.0
 props:
   acronym: CC-BY-NC-SA-2.0
+  spdx: CC-BY-NC-SA-2.0
 relatedURI:
   URL: https://creativecommons.org/licenses/by-nc-sa/2.0/
 title:
@@ -265,6 +275,7 @@ icon: https://licensebuttons.net/l/by-nd/2.0/88x31.png
 id: CC-BY-ND-2.0
 props:
   acronym: CC-BY-ND-2.0
+  spdx: CC-BY-ND-2.0
 relatedURI:
   URL: https://creativecommons.org/licenses/by-nd/2.0/
 title:
@@ -285,6 +296,7 @@ icon: https://licensebuttons.net/l/by-nc-nd/2.0/88x31.png
 id: CC-BY-NC-ND-2.0
 props:
   acronym: CC-BY-NC-ND-2.0
+  spdx: CC-BY-NC-ND-2.0
 relatedURI:
   URL: https://creativecommons.org/licenses/by-nc-nd/2.0/
 title:
@@ -321,6 +333,7 @@ icon: https://licensebuttons.net/l/by/2.5/88x31.png
 id: CC-BY-2.5
 props:
   acronym: CC-BY-2.5
+  spdx: CC-BY-2.5
 relatedURI:
   URL: https://creativecommons.org/licenses/by/2.5/
 title:
@@ -342,6 +355,7 @@ icon: https://licensebuttons.net/l/by-sa/2.5/88x31.png
 id: CC-BY-SA-2.5
 props:
   acronym: CC-BY-SA-2.5
+  spdx: CC-BY-SA-2.5
 relatedURI:
   URL: https://creativecommons.org/licenses/by-sa/2.5/
 title:
@@ -362,6 +376,7 @@ icon: https://licensebuttons.net/l/by-nc/2.5/88x31.png
 id: CC-BY-NC-2.5
 props:
   acronym: CC-BY-NC-2.5
+  spdx: CC-BY-NC-2.5
 relatedURI:
   URL: https://creativecommons.org/licenses/by-nc/2.5/
 title:
@@ -385,6 +400,7 @@ icon: https://licensebuttons.net/l/by-nc-sa/2.5/88x31.png
 id: CC-BY-NC-SA-2.5
 props:
   acronym: CC-BY-NC-SA-2.5
+  spdx: CC-BY-NC-SA-2.5
 relatedURI:
   URL: https://creativecommons.org/licenses/by-nc-sa/2.5/
 title:
@@ -406,6 +422,7 @@ icon: https://licensebuttons.net/l/by-nd/2.5/88x31.png
 id: CC-BY-ND-2.5
 props:
   acronym: CC-BY-ND-2.5
+  spdx: CC-BY-ND-2.5
 relatedURI:
   URL: https://creativecommons.org/licenses/by-nd/2.5/
 title:
@@ -426,6 +443,7 @@ icon: https://licensebuttons.net/l/by-nc-nd/2.5/88x31.png
 id: CC-BY-NC-ND-2.5
 props:
   acronym: CC-BY-NC-ND-2.5
+  spdx: CC-BY-NC-ND-2.5
 relatedURI:
   URL: https://creativecommons.org/licenses/by-nc-nd/2.5/
 title:
@@ -599,6 +617,7 @@ icon: https://licensebuttons.net/l/by/4.0/88x31.png
 id: CC-BY-4.0
 props:
   acronym: CC-BY-4.0
+  spdx: CC-BY-4.0
 relatedURI:
   URL: https://creativecommons.org/licenses/by/4.0/
 tags:
@@ -623,6 +642,7 @@ icon: https://licensebuttons.net/l/by-sa/4.0/88x31.png
 id: CC-BY-SA-4.0
 props:
   acronym: CC-BY-SA-4.0
+  spdx: CC-BY-SA-4.0
 relatedURI:
   URL: https://creativecommons.org/licenses/by-sa/4.0/
 tags:
@@ -645,6 +665,7 @@ icon: https://licensebuttons.net/l/by-nc/4.0/88x31.png
 id: CC-BY-NC-4.0
 props:
   acronym: CC-BY-NC-4.0
+  spdx: CC-BY-NC-4.0
 relatedURI:
   URL: https://creativecommons.org/licenses/by-nc/4.0/
 tags:
@@ -671,6 +692,7 @@ icon: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
 id: CC-BY-NC-SA-4.0
 props:
   acronym: CC-BY-NC-SA-4.0
+  spdx: CC-BY-NC-SA-4.0
 relatedURI:
   URL: https://creativecommons.org/licenses/by-nc-sa/4.0/
 tags:
@@ -694,6 +716,7 @@ icon: https://licensebuttons.net/l/by-nd/4.0/88x31.png
 id: CC-BY-ND-4.0
 props:
   acronym: CC-BY-ND-4.0
+  spdx: CC-BY-ND-4.0
 relatedURI:
   URL: https://creativecommons.org/licenses/by-nd/4.0/
 tags:
@@ -717,6 +740,7 @@ icon: https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png
 id: CC-BY-NC-ND-4.0
 props:
   acronym: CC-BY-NC-ND-4.0
+  spdx: CC-BY-NC-ND-4.0
 relatedURI:
   URL: https://creativecommons.org/licenses/by-nc-nd/4.0/
 tags:

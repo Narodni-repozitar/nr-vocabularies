@@ -295,6 +295,9 @@ Teprve nejnižší úroveň nese následující informace:
 - kvůli technickému řešení slovník obsahuje také odkaz do obrázku, který by měl následně v záznamech představovat ikonu, 
 reprezentující informaci o licenci,
 - zkratka licence – užívá se pro zobrazení licencí ve fasetě v UI NR,
+- identifikátor licence v [seznamu SPDX](https://spdx.org/licenses/) (položka props.spdx, např. CC-BY-4.0) – 
+uvádí se jen u licencí, které SPDX obsahuje; české porty verze 3.0 v SPDX nejsou, u verze 1.0 je pořadí písmen 
+podle SPDX (CC-BY-ND-NC-1.0 má identifikátor CC-BY-NC-ND-1.0),
 - slovní popis typu licence v češtině a angličtině,
 - položku tags_0 s hodnotou featured pro prioritní zobrazení licencí ve verzi 4.0.
 
